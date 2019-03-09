@@ -1,3 +1,6 @@
+body{
+    background-color: #474e5d;
+}
 #words{
     font-size: 34px;
     color: white;
@@ -11,4 +14,46 @@
     border-radius: 0px;
     color: white;
     margin-bottom: 0;
+}
+.col-sm-7{
+    padding: 0;
+}
+#back{
+    min-height: 700px;
+    background-image: url("we.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#model{
+    background-color:#BEBEBE;
+}
+.slideanim {visibility:hidden;}
+.slider {
+  animation-name: slide;
+  -webkit-animation-name: slide;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  visibility: visible;
+}
+@keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translateY(70%);
+  } 
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  } 
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
 }
