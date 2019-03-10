@@ -15,6 +15,11 @@ body{
     color: white;
     margin-bottom: 0;
 }
+#whyme{
+    border-radius: 0;
+    margin-bottom: 0;
+    background-color: 
+}
 .col-sm-7{
     padding: 0;
 }
@@ -27,7 +32,8 @@ body{
     background-repeat: no-repeat;
 }
 #model{
-    background-color:#BEBEBE;
+    background-color:white;
+    padding: 5px;
 }
 .slideanim {visibility:hidden;}
 .slider {
