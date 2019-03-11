@@ -8,6 +8,7 @@ body{
 #writting{
     background-color: black;
     margin-bottom: 0;
+    min-height: 200px;
 }
 #me{
     background-color: #474e5d;
@@ -22,6 +23,13 @@ body{
 #knowbronnie{
     background-color: white;
 }
+@media only screen and (min-width: 768px) {
+  .col-sm-4{
+    display: flex;
+    f
+  }
+
+} 
 .col-sm-7{
     padding: 0;
 }

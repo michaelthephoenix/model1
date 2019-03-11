@@ -30,7 +30,7 @@
 <body>
     <div id="loader"></div>
     <main>
-        <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+        <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="#">ModelBaller11</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -48,7 +48,12 @@
                     </li>
                 </ul>
             </div>
-        </nav>
+        </nav> -->
+        <nav class="navbar navbar-dark mdb-color">
+            <span class="navbar-text white-text text-center">
+              MODELBALLER11
+            </span>
+          </nav>
         <div class="jumbotron jumbotron-fluid" id="writting">
             <div class="container" id="words">
                 <div id="typed-strings">
@@ -85,8 +90,8 @@
                 </a>
             </div>
             <div class="col-sm-5 jumbotron my-auto" id="me">
-                <h2 class="display-4 text-center slideanim">About me</h2>
-                <p class="lead text-center">I'm a model, fashion designer, basketballer, troublemaker and a princess of a galaxy you dont know yet</p>
+                <!-- <h2 class="display-4 text-center slideanim">About me</h2> -->
+                <h3 class="text-center">I'm a model, fashion designer, basketballer, troublemaker and a princess of a galaxy you dont know yet</h3>
                 <hr class="my-4">
                 <a class="btn btn-primary btn-lg" href="#knowbronnie" role="button">Learn more</a>
             </div>
@@ -101,11 +106,11 @@
             </div>
         </div>
         <!-- hiring bronnie -->
-        <div class="col-sm-5 jumbotron px-auto" id="whyme">
+        <div class="col jumbotron px-auto" id="whyme">
             <p class="lead text-center">it's learning and earning from doing something i love <br/>it's really awesome</p>
             <hr class="my-4">
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            <button type="button" class="btn btn-primary d-block mx-auto" data-toggle="modal" data-target="#exampleModal">
                 hire me
             </button>
             <!-- Modal -->
@@ -130,19 +135,19 @@
             </div>
         </div>
         <!-- telling her story -->
-        <div class="container-fluid pl-0" id="knowbronnie">
-            <h1 class="display-4 text-center">When not working</h1>
+        <div class="container-fluid px-0 " id="knowbronnie">
+            <h1 class="display-4 text-center">About me</h1>
             <div class="row mx-auto">
             <div class="col-sm-4">
-                <div class="card shadow mb-3 slideanim" style="width: 18rem;">
+                <div class="card mx-auto shadow mb-3 slideanim" style="width: 18rem;">
                     <img src="baller.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <p class="card-text text-center">i live it, love it, and play it.</p>
+                        <p class="card-text text-center">I live it, love it, and play it.</p>
                     </div>
                 </div>
             </div>
             <div class="col-sm-4">
-                <div class="card shadow mb-3 slideanim" style="width: 18rem;">
+                <div class="card mx-auto shadow mb-3 slideanim" style="width: 18rem;">
                     <img src="saturday.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <p class="card-text text-center">I call this doing my thing.</p>
@@ -150,10 +155,10 @@
                 </div>
             </div>
             <div class="col-sm-4">
-                <div class="card shadow mb-3 slideanim" style="width: 18rem;">
+                <div class="card mx-auto shadow mb-3 slideanim" style="width: 18rem;">
                     <img src="air.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <p class="card-text text-center">My freinds and I plus the beach is total funtime</p>
+                        <p class="card-text text-center">My freinds and I at the beach is always total funtime</p>
                     </div>
                 </div>
             </div>
@@ -220,6 +225,9 @@
 <script>
   var typed = new Typed('#typed', {
     stringsElement: '#typed-strings',
+    backDelay:10000,
+    loop:true,
+    loopcount:5,
     showCursor: true,
     typeSpeed: 70
   });
